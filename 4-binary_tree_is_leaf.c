@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include "binary_trees.h"
 
+/**
+ * binary_tree_is_leaf - finds if node is a leaf of the tree
+ * @node: node to check
+ * Return: 1 if it is a leaf else 0
+ */
+
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
 	if (node == NULL)
